@@ -10,6 +10,7 @@ const NavationBar = () => {
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
                     <li><Link to='/'> Home </Link></li>
+                    <li><Link to='/blog'>Blog</Link></li>
                     <li><a href='#about'>About</a></li>
                     <li><a href="https://docs.google.com/document/d/1A-9JnmG-5LTGHqmx4ZmgG3WED7UUzt7X0ahNzYm-Prs/edit?usp=share_link">Resume </a></li>
                     <li><Link to='/contact'>Contact</Link></li>

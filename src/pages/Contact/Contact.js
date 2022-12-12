@@ -8,7 +8,8 @@ const Contact = () => {
 " method="POST">
                 <input type="text" placeholder="name" name="name" className="input input-bordered input-primary w-full max-w-xs" required /><br />
                 <input type="email" placeholder="Email" name="email" className="input input-bordered input-primary w-full max-w-xs mt-5" required /><br />
-                <textarea name="message" placeholder='write Your Email' className='bg bg-white mt-5' id="" cols="42" rows="8"></textarea> <br />
+                <textarea style={{height:'170px'}} name="message" placeholder='write Your Email' className='input input-bordered input-primary w-full max-w-xs mt-5'  cols="42" rows="18" id="" ></textarea> <br />
+ 
 
                 <input className='btn btn-primary mt-5' type="submit" value="Submit" />
             </form>
