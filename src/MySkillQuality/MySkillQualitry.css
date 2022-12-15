@@ -14,6 +14,7 @@
     align-items: center;
     justify-content: center; */
     background-color: #0f172a;
+    color:rgba(245, 242, 242, 0.879);
 }
 
 .container{
@@ -61,15 +62,15 @@
     position: relative;
     display: block;
     height: 100%;
-    width: 95%;
+    width: 100%;
     border-radius: 6px;
     animation: progress 0.4s ease-in-out forwards;
-    background-color: crimson;
+    background-color: rgb(50, 110, 51);
     opacity: 0;
 }
 
 .skill-per.css {
-    width: 80%;
+    width: 100%;
     animation-delay: 0.1s;
 }
 
@@ -111,7 +112,7 @@
     color: #fff;
     padding: 2px 6px;
     border-radius: 3px;
-    background-color: crimson;
+    background-color: crimson; 
     z-index: 1;
 }
 

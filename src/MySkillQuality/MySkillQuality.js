@@ -25,7 +25,7 @@ const MySkillQuality = () => {
                         <span className="title">CSS</span>
                         <div className="skill-bar">
                             <span className="skill-per css">
-                                <span className="tooltip">80%</span>
+                                <span className="tooltip">100%</span>
                             </span>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ const MySkillQuality = () => {
                         <span className="title">JavaScript</span>
                         <div className="skill-bar">
                             <span className="skill-per javascript">
-                                <span className="tooltip">60%</span>
+                                <span className="tooltip">90%</span>
                             </span>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ const MySkillQuality = () => {
                         <span className="title">NodeJS</span>
                         <div className="skill-bar">
                             <span className="skill-per nodejs">
-                                <span className="tooltip">40%</span>
+                                <span className="tooltip">84%</span>
                             </span>
                         </div>
                     </div>
@@ -49,7 +49,7 @@ const MySkillQuality = () => {
                         <span className="title">ReactJS</span>
                         <div className="skill-bar">
                             <span className="skill-per reactjs">
-                                <span className="tooltip">70%</span>
+                                <span className="tooltip">88%</span>
                             </span>
                         </div>
                     </div>
