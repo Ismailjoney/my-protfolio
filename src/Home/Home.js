@@ -11,6 +11,7 @@ const Home = () => {
             <MySkills></MySkills>
             <MySkillQuality></MySkillQuality>
             <MyProject></MyProject>
+            
         </div>
     );
 };

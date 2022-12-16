@@ -3,7 +3,6 @@ import Blog from "../Blog/Blog";
 import Home from "../Home/Home";
 import DetailsInformation from "../Home/Home/MyProject/DetailsInformation";
 import Main from "../layout/Main";
-import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
  
 
@@ -25,10 +24,6 @@ export const route = createBrowserRouter([
                 element:<DetailsInformation></DetailsInformation>,
                 loader: ({params}) => fetch(`https://protfolio-server-nine.vercel.app/projects/${params.id}`)
             },
-            {
-                path:'/about',
-                element:<About></About>
-            }, 
             {
                 path:'/contact',
                 element:<Contact></Contact>

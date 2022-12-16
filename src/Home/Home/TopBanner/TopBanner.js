@@ -9,11 +9,11 @@ const TopBanner = () => {
         <div className='grid  mt-14 mb-12  leading-6  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2'>
             <div className='flex justify-center items-center sm:mb-11'>
                 <div className='text-left '>
-                    <h1 className='text-start font-bold text-3xl mb-3'>Hey</h1>
+                    <h1 className='text-start font-bold text-3xl mb-3'>Hey I'm</h1>
                     {/* typical work */}
                     <TypeAnimation   
                         sequence={[
-                            ` I'm`,1000,  
+                            `I'm`,1500,
                             ` Mohammad Ismail Hossen Joney`,2000,
                             
                             () => {
@@ -25,6 +25,7 @@ const TopBanner = () => {
                         repeat={Infinity}
                         style={{ fontSize: '2em',fontWeight:'bold' }}
                     />
+                    
                     <h1 className='text-start font-bold text-3xl mt-3'>I'm Front-end Developer</h1>
                     <p className='mt-8'>
                         I am experienced using

@@ -11,7 +11,7 @@ const MySkillQuality = () => {
         <div>
             <h2 className='text-3xl font-bold tracking-widest mt-25 my-14'>My Skills</h2>
 
-            <div style={{display:'flex',justifyContent:'space-around'}} className='flex flex-col md:flex-row sm:flex-row'>
+            <div style={{display:'flex',justifyContent:'space-around'}} className='flex flex-col md:flex-row sm:flex-row sm:w-100'>
                 <div  className="container">
                     <div className="skill-box">
                         <span className="title ">HTML</span>
